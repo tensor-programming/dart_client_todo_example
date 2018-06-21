@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#output {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+#todo {
+  height: 25px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#todo-list {
+  margin: 25px 0 25px 0;
+}
+
+#todo-list div {
+  padding: 5px 0 5px 0;
+  border-bottom: dotted grey 1px;
+}
+
+#todo-list div span {
+  margin-left: 10px;
+}
